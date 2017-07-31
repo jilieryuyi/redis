@@ -1,39 +1,39 @@
 # Redis client for Golang
 
-[![Build Status](https://travis-ci.org/go-redis/redis.png?branch=master)](https://travis-ci.org/go-redis/redis)
-[![GoDoc](https://godoc.org/github.com/go-redis/redis?status.svg)](https://godoc.org/github.com/go-redis/redis)
+[![Build Status](https://travis-ci.org/heipacker/redis.png?branch=master)](https://travis-ci.org/heipacker/redis)
+[![GoDoc](https://godoc.org/github.com/heipacker/redis?status.svg)](https://godoc.org/github.com/heipacker/redis)
 
 Supports:
 
 - Redis 3 commands except QUIT, MONITOR, SLOWLOG and SYNC.
-- [Pub/Sub](https://godoc.org/github.com/go-redis/redis#PubSub).
-- [Transactions](https://godoc.org/github.com/go-redis/redis#Multi).
-- [Pipeline](https://godoc.org/github.com/go-redis/redis#example-Client-Pipeline) and [TxPipeline](https://godoc.org/github.com/go-redis/redis#example-Client-TxPipeline).
-- [Scripting](https://godoc.org/github.com/go-redis/redis#Script).
-- [Timeouts](https://godoc.org/github.com/go-redis/redis#Options).
-- [Redis Sentinel](https://godoc.org/github.com/go-redis/redis#NewFailoverClient).
-- [Redis Cluster](https://godoc.org/github.com/go-redis/redis#NewClusterClient).
-- [Ring](https://godoc.org/github.com/go-redis/redis#NewRing).
-- [Instrumentation](https://godoc.org/github.com/go-redis/redis#ex-package--Instrumentation).
-- [Cache friendly](https://github.com/go-redis/cache).
-- [Rate limiting](https://github.com/go-redis/rate).
+- [Pub/Sub](https://godoc.org/github.com/heipacker/redis#PubSub).
+- [Transactions](https://godoc.org/github.com/heipacker/redis#Multi).
+- [Pipeline](https://godoc.org/github.com/heipacker/redis#example-Client-Pipeline) and [TxPipeline](https://godoc.org/github.com/heipacker/redis#example-Client-TxPipeline).
+- [Scripting](https://godoc.org/github.com/heipacker/redis#Script).
+- [Timeouts](https://godoc.org/github.com/heipacker/redis#Options).
+- [Redis Sentinel](https://godoc.org/github.com/heipacker/redis#NewFailoverClient).
+- [Redis Cluster](https://godoc.org/github.com/heipacker/redis#NewClusterClient).
+- [Ring](https://godoc.org/github.com/heipacker/redis#NewRing).
+- [Instrumentation](https://godoc.org/github.com/heipacker/redis#ex-package--Instrumentation).
+- [Cache friendly](https://github.com/heipacker/cache).
+- [Rate limiting](https://github.com/heipacker/rate).
 - [Distributed Locks](https://github.com/bsm/redis-lock).
 
-API docs: https://godoc.org/github.com/go-redis/redis.
-Examples: https://godoc.org/github.com/go-redis/redis#pkg-examples.
+API docs: https://godoc.org/github.com/heipacker/redis.
+Examples: https://godoc.org/github.com/heipacker/redis#pkg-examples.
 
 ## Installation
 
 Install:
 
 ```shell
-go get -u github.com/go-redis/redis
+go get -u github.com/heipacker/redis
 ```
 
 Import:
 
 ```go
-import "github.com/go-redis/redis"
+import "github.com/heipacker/redis"
 ```
 
 ## Quickstart
@@ -78,7 +78,7 @@ func ExampleClient() {
 
 ## Howto
 
-Please go through [examples](https://godoc.org/github.com/go-redis/redis#pkg-examples) to get an idea how to use this package.
+Please go through [examples](https://godoc.org/github.com/heipacker/redis#pkg-examples) to get an idea how to use this package.
 
 ## Look and feel
 
@@ -106,7 +106,7 @@ Some corner cases:
 
 ## Benchmark
 
-go-redis vs redigo:
+heipacker vs redigo:
 
 ```
 BenchmarkSetGoRedis10Conns64Bytes-4 	  200000	      7621 ns/op	     210 B/op	       6 allocs/op

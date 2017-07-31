@@ -5,7 +5,7 @@ package redis
 import (
 	"context"
 
-	"github.com/go-redis/redis/internal/pool"
+	"github.com/heipacker/redis/internal/pool"
 )
 
 type baseClient struct {
