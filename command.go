@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-redis/redis/internal"
-	"github.com/go-redis/redis/internal/pool"
-	"github.com/go-redis/redis/internal/proto"
+	"github.com/jilieryuyi/redis/internal"
+	"github.com/jilieryuyi/redis/internal/pool"
+	"github.com/jilieryuyi/redis/internal/proto"
 )
 
 var (
