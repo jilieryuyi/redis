@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75fb2df3-529d-44ca-8acb-70e38edf3db1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/internal/pool/bench_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/pool/bench_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/pool/conn.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/pool/conn.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/pool/pool.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/pool/pool.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/pool/pool_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/pool/pool_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/proto/reader.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/proto/reader.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/proto/reader_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/proto/reader_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/proto/scan.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/proto/scan.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/proto/write_buffer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/proto/write_buffer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands.go" beforeDir="false" afterPath="$PROJECT_DIR$/commands.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -92,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="write_buffer_test.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="write_buffer_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/internal/proto/write_buffer_test.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -101,9 +94,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/internal/log.go">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="commands.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/commands.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -141,6 +138,7 @@
         <option value="$PROJECT_DIR$/internal/proto/scan.go" />
         <option value="$PROJECT_DIR$/internal/proto/reader_test.go" />
         <option value="$PROJECT_DIR$/internal/proto/write_buffer_test.go" />
+        <option value="$PROJECT_DIR$/commands.go" />
       </list>
     </option>
   </component>
@@ -217,11 +215,11 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32861635" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24952562" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32861635" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24952562" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.5314465" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5314465" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
@@ -339,6 +337,13 @@
     <entry file="file://$PROJECT_DIR$/internal/proto/write_buffer_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
           <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
         </state>
       </provider>
