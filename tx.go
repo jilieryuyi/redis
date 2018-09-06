@@ -1,8 +1,8 @@
 package redis
 
 import (
-	"github.com/go-redis/redis/internal"
-	"github.com/go-redis/redis/internal/pool"
+	"github.com/jilieryuyi/redis/internal"
+	"github.com/jilieryuyi/redis/internal/pool"
 )
 
 // Redis transaction failed.
